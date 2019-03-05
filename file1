@@ -49,6 +49,17 @@ public class Factorial
 		return result;
 	}
 }
+-----------------------------------------
+// pre: list != null
+	// post: return sum of elements
+	// uses enhanced for loop
+	public static int sumListEnhanced(int[] list)
+	{	int total = 0;
+		for(int val : list)
+		{	total += val;
+		}
+		return total;
+
 -----------------------------------------------
 public class EnhancedFor
 {
@@ -59,4 +70,4 @@ public class EnhancedFor
 
 		System.out.println("Original List");
 		printList(list);
-		System.out.println("Calling addOne");
+		System.out.println("Calling addOne"
